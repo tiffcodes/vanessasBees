@@ -1,0 +1,94 @@
+@import 'normalize';
+@import 'typography';
+@import 'header';
+@import 'tours';
+@import 'story';
+@import 'locations';
+@import 'contact';
+@import 'partners';
+@import 'footer';
+@import 'popupform';
+
+
+img {
+	max-width: 100%;
+}
+
+ol {
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+button {
+	border: 2px solid $highlight;
+	background-color: transparent;
+	transition: all 1s ease;
+	padding: 0;
+	a {
+		text-decoration: none;
+		transition: all 1s ease;
+		padding: 12px 40px;
+		display: inline-block;
+		color: $primary;
+	}
+	img, svg {
+		width: 20px;
+		fill: $secondary;
+		stroke: $secondary;
+	}
+	&:hover {
+		background-color: $highlight;
+		color: $primary;
+		a {
+			border: none;
+		}
+		svg {
+			fill: $primary;
+			stroke: $primary;
+		}
+	}
+}
+
+section {
+	padding: 100px 0;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+.shopify-buy__btn.shopify-buy__beside-quantity {
+	border: 2px solid $highlight !important;
+	font-size: 1.5rem;
+	font-weight: 700;
+	letter-spacing: 0.2rem;
+}
+
+#instafeed {
+	// max-width: 900px;
+	margin: 0;
+	a {
+		display: block;
+		float: left;
+		border: 1px solid transparent;
+		&:hover{
+			border: 1px solid transparent;
+		}
+	}
+}
+@media (max-width: 1150px) {
+	#instafeed {
+		max-width: 500px;
+	}
+}
+
+@media (max-width: 900px) {
+	section, footer {
+		padding: 50px 0; 
+	}
+}

@@ -1,0 +1,76 @@
+footer {
+	background: $comp;
+	padding-top: 100px;
+	padding-bottom: 25px;
+	a {
+		color: $primary;
+	}
+	i.fa {
+		margin-right: 20px;
+		font-size: 2rem;
+		display: inline-block;
+		min-width: 20px;
+	}
+	i.fa-envelope {
+		font-size: 1.7rem;
+	}
+	.contactInfoContain {
+		display: flex;
+		justify-content: space-between;
+		.insta {
+			flex: 1 0 auto;
+			margin-left: 50px;
+		}
+		.feed {
+			display: flex;
+			.img {
+				width: 200px;
+				height: 200px;
+				background: grey;
+				margin: 0 10px;
+			}
+		}
+	}
+	.secondaryFooter {
+		margin-top: 50px;
+		text-align: center;
+		.img {
+			max-width: 75px;
+			margin: 0 auto;
+		}
+		p {
+			margin: 0;
+		}
+	}
+}
+
+@media (max-width: 900px) {
+	footer {
+		.contactInfoContain {
+			flex-direction: column;
+			.insta, .contactInfo {
+				margin: 0;
+				padding: 0 50px;
+			}
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	footer {
+		.contactInfoContain {
+			.insta, .contactInfo {
+				padding: 0 10px;
+			}
+			.feed {
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				.img {
+					max-width: 100%;
+					margin: 10px;
+				}
+			}
+		}
+	}
+}

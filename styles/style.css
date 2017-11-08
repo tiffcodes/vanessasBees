@@ -1,0 +1,715 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #000; }
+
+h1 {
+  font-weight: 600;
+  font-size: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  color: #fff; }
+
+h2 {
+  font-family: "lora", serif;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 9rem;
+  letter-spacing: 0.3rem;
+  margin: 0;
+  position: relative; }
+
+h2:not(.location)::after {
+  content: '';
+  height: 30%;
+  width: 600px;
+  max-width: 60%;
+  position: absolute;
+  bottom: 10px;
+  z-index: -1;
+  left: -2px;
+  background: rgba(239, 192, 50, 0.7); }
+
+h3, h4, button {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem; }
+
+button {
+  font-size: 1.5rem;
+  font-weight: 700; }
+
+h3, h4 {
+  line-height: 1.3; }
+
+nav a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff; }
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  transition: all 1s ease; }
+  a:hover {
+    border-bottom: 1px solid;
+    transition: all 1s ease; }
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem; }
+
+.nowBooking p {
+  font-weight: 700;
+  margin: 0; }
+
+li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.5rem; }
+
+input, textarea {
+  font-size: 2rem;
+  font-weight: 600; }
+
+label {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem; }
+
+header, .story, .contact {
+  color: #fff; }
+
+.tours, .products, .save-the-bees, .locations, .partners, footer {
+  color: #000; }
+  .tours button, .tours svg, .products button, .products svg, .save-the-bees button, .save-the-bees svg, .locations button, .locations svg, .partners button, .partners svg, footer button, footer svg {
+    color: #000;
+    fill: #000;
+    stroke: #000; }
+
+.secondaryFooter p {
+  font-size: 1.2rem;
+  line-height: 2rem; }
+
+@media (max-width: 900px) {
+  .locations h2,
+  .products h2,
+  .tours h2,
+  .partners h2,
+  .locations p {
+    margin-left: 20px; }
+  h3, h4 {
+    line-height: 2; } }
+
+@media (max-width: 600px) {
+  h1, h2 {
+    font-size: 6rem; }
+  .locations h2,
+  .products h2,
+  .tours h2,
+  .partners h2,
+  .locations p {
+    margin-left: 10px; } }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 7rem;
+    line-height: 6rem; }
+  h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin-top: 50px; } }
+
+@media (max-width: 350px) {
+  h2 {
+    font-size: 6rem;
+    letter-spacing: 0; } }
+
+@media (max-width: 270px) {
+  h2 {
+    font-size: 5rem; }
+  h1 {
+    font-size: 3rem; } }
+
+header {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 60%, transparent), url(../assets/barn-wildflowers.jpg);
+  background-image: url(../assets/barn-wildflowers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative; }
+  header ul {
+    list-style: none; }
+
+nav {
+  padding-top: 70px;
+  max-width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5), transparent);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  nav .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; }
+  nav .logo {
+    flex: 1 1 auto;
+    max-width: 65px; }
+  nav ul {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0; }
+    nav ul li {
+      padding: 0 10px; }
+  nav ul.mobileNav {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 50px 0; }
+    nav ul.mobileNav li:not(.hamburger) {
+      display: block;
+      justify-content: space-around; }
+      nav ul.mobileNav li:not(.hamburger) a {
+        font-size: 2rem;
+        border-bottom: 1px solid transparent;
+        padding: 10px 0;
+        letter-spacing: 0.4rem; }
+    nav ul.mobileNav li.hamburger {
+      position: absolute;
+      top: 20px;
+      right: 10px; }
+
+.hamburger {
+  display: none; }
+
+h1 {
+  text-align: center;
+  margin: 20px; }
+
+@media (max-width: 900px) {
+  nav .header {
+    justify-content: center; } }
+
+@media (max-width: 600px) {
+  nav {
+    padding-top: 5px; }
+    nav .logo {
+      max-width: 50px;
+      margin-left: 1rem; }
+    nav ul {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      max-width: 100%;
+      display: block;
+      flex: 0 0 auto; }
+    nav li:not(.hamburger) {
+      display: none; }
+  .hamburger {
+    display: block;
+    align-self: flex-end;
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: #eee; } }
+
+.tour {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 100px; }
+  .tour:last-child {
+    margin: 40px 0 40px; }
+  .tour .img {
+    flex: 1 0 400px;
+    width: 400px;
+    margin-right: 40px; }
+  .tour .img.honey {
+    width: 400px;
+    flex: none; }
+  .tour .info h3 {
+    margin: 0;
+    padding-top: 0; }
+  .tour .info .nowBooking {
+    margin-bottom: 20px; }
+
+.fa-angle-down {
+  font-size: 25px; }
+
+.moreTourInfo {
+  display: none; }
+
+.moreTourInfo.open {
+  display: block; }
+
+@media (max-width: 900px) {
+  .tour {
+    flex-direction: column; }
+    .tour .img {
+      flex: 1 0 auto;
+      max-width: 100%;
+      padding: 50px;
+      padding-top: 0;
+      margin-right: 0; }
+    .tour .info {
+      padding: 50px;
+      width: 100%; }
+  .tour-info {
+    padding: 50px; } }
+
+@media (max-width: 600px) {
+  .tour {
+    margin: 50px 0; }
+    .tour .img {
+      padding: 10px; }
+    .tour .info {
+      padding: 10px; }
+  .tour-info {
+    padding: 10px; } }
+
+section.story,
+section.save-the-bees,
+section.contact {
+  background-image: url(../assets/flowers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0; }
+  section.story .container,
+  section.save-the-bees .container,
+  section.contact .container {
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    padding: 50px 75px; }
+
+section.save-the-bees {
+  background-image: url(../assets/bigbeeyellowflower.jpg); }
+  section.save-the-bees .container {
+    max-width: 850px;
+    margin-left: auto;
+    background: rgba(255, 255, 255, 0.5); }
+    section.save-the-bees .container ol {
+      padding-left: 50px; }
+
+section.contact {
+  background-image: url(../assets/wildflowers-field.jpg);
+  background-position: 70% 50%; }
+
+@media (max-width: 900px) {
+  section.story .container,
+  section.save-the-bees .container,
+  section.contact .container {
+    padding: 50px 25px; } }
+
+@media (max-width: 400px) {
+  section.save-the-bees .container ol {
+    padding-left: 15px; }
+  section.story .container,
+  section.save-the-bees .container,
+  section.contact .container {
+    padding: 50px 10px; }
+  section.save-the-bees {
+    background-position: 28%; } }
+
+section.locations a {
+  color: #000;
+  border-bottom: 1px solid; }
+  section.locations a:hover {
+    border-bottom: 1px transparent; }
+
+.locationList {
+  display: flex;
+  justify-content: flex-end; }
+
+.address {
+  margin-left: 50px; }
+  .address p {
+    margin: 5px 0; }
+
+@media (max-width: 400px) {
+  .address {
+    margin: 0; }
+  .locationList {
+    flex-direction: column;
+    padding: 0 10px; } }
+
+label, input, textarea {
+  display: block;
+  width: 100%; }
+
+label {
+  margin-bottom: 5px; }
+
+input, textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 0;
+  border-radius: 0; }
+
+textarea {
+  max-height: 150px; }
+
+select {
+  border-radius: 0; }
+
+form button {
+  padding: 12px 40px;
+  color: #fff; }
+
+.partners {
+  background: #c9c9c9; }
+  .partners a {
+    display: inline-block;
+    border: 2px solid transparent; }
+    .partners a:hover {
+      border: 2px solid #c9c9c9;
+      border-radius: 5px; }
+
+.partnerLogos {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+  .partnerLogos .img {
+    flex: 0 0 calc(20% - 20px);
+    width: 75px;
+    margin: 10px; }
+
+@media (max-width: 900px) {
+  .partnerLogos {
+    justify-content: center; }
+    .partnerLogos .img {
+      flex: 0 0 auto; } }
+
+@media (max-width: 800px) {
+  .partnerLogos .img {
+    width: 130px; } }
+
+@media (max-width: 400px) {
+  .partnerLogos {
+    flex-direction: column; }
+    .partnerLogos .img {
+      flex: 0 0 75px; } }
+
+footer {
+  background: #fff;
+  padding-top: 100px;
+  padding-bottom: 25px; }
+  footer a {
+    color: #000; }
+  footer i.fa {
+    margin-right: 20px;
+    font-size: 2rem;
+    display: inline-block;
+    min-width: 20px; }
+  footer i.fa-envelope {
+    font-size: 1.7rem; }
+  footer .contactInfoContain {
+    display: flex;
+    justify-content: space-between; }
+    footer .contactInfoContain .contactInfo {
+      min-width: 269px; }
+    footer .contactInfoContain .insta {
+      margin-left: 50px; }
+  footer .secondaryFooter {
+    margin-top: 50px;
+    text-align: center; }
+    footer .secondaryFooter .img {
+      max-width: 75px;
+      margin: 0 auto; }
+    footer .secondaryFooter p {
+      margin: 0; }
+
+@media (max-width: 900px) {
+  footer .contactInfoContain {
+    flex-direction: column; }
+    footer .contactInfoContain .insta, footer .contactInfoContain .contactInfo {
+      margin: 0;
+      padding: 0 50px;
+      min-width: auto; } }
+
+@media (max-width: 600px) {
+  footer .contactInfoContain .insta, footer .contactInfoContain .contactInfo {
+    padding: 0 10px; }
+  footer .contactInfoContain .feed {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .contactInfoContain .feed .img {
+      max-width: 100%;
+      margin: 10px; } }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 9999999;
+  overflow: scroll; }
+
+.popup form {
+  width: 80%;
+  max-width: 1000px;
+  margin: 100px auto;
+  background: white;
+  padding: 100px;
+  position: relative; }
+  .popup form input, .popup form textarea {
+    background: #c4a69d; }
+
+.popupShow {
+  display: block; }
+
+.close {
+  position: absolute;
+  font-size: 20px;
+  font-weight: normal;
+  border-radius: 50%;
+  padding: 5px 10px;
+  border: 1px solid black;
+  top: 10px;
+  left: 10px; }
+
+.group {
+  border-bottom: 1px solid transparent;
+  font-size: 16px;
+  margin-top: 15px;
+  display: inline-block; }
+
+.group:hover {
+  cursor: pointer; }
+
+@media (max-width: 800px) {
+  .popup form {
+    width: 90%;
+    margin: 50px auto 100px;
+    padding: 50px 50px 100px; } }
+
+@media (max-width: 400px) {
+  .popup form {
+    width: 95%;
+    margin: 10px auto 50px;
+    padding: 10px 10px 50px; }
+    .popup form h2 {
+      padding-top: 30px; } }
+
+img {
+  max-width: 100%; }
+
+ol {
+  padding: 0; }
+
+.wrapper {
+  max-width: 1050px;
+  margin: 0 auto; }
+
+button {
+  border: 2px solid #efc032;
+  background-color: transparent;
+  transition: all 1s ease;
+  padding: 0; }
+  button a {
+    text-decoration: none;
+    transition: all 1s ease;
+    padding: 12px 40px;
+    display: inline-block;
+    color: #000; }
+  button img, button svg {
+    width: 20px;
+    fill: #fff;
+    stroke: #fff; }
+  button:hover {
+    background-color: #efc032;
+    color: #000; }
+    button:hover a {
+      border: none; }
+    button:hover svg {
+      fill: #000;
+      stroke: #000; }
+
+section {
+  padding: 100px 0; }
+
+#map {
+  height: 400px;
+  width: 100%; }
+
+.shopify-buy__btn.shopify-buy__beside-quantity {
+  border: 2px solid #efc032 !important;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem; }
+
+#instafeed {
+  margin: 0; }
+  #instafeed a {
+    display: block;
+    float: left;
+    border: 1px solid transparent; }
+    #instafeed a:hover {
+      border: 1px solid transparent; }
+
+@media (max-width: 1150px) {
+  #instafeed {
+    max-width: 500px; } }
+
+@media (max-width: 900px) {
+  section, footer {
+    padding: 50px 0; } }

@@ -1,0 +1,53 @@
+.partners {
+	background: #c9c9c9;
+	a {
+		display: inline-block;
+		border: 2px solid transparent;
+		&:hover {
+			border: 2px solid $comp;
+			border-radius: 5px;
+			// background: rgba(255,255,255,0.5);
+		}
+	}
+}
+
+.partnerLogos {
+	padding-top: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	.img {
+		flex: 0 0 calc(20% - 20px);
+		width: 75px;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 900px) {
+	.partnerLogos  {
+		justify-content: center;
+		.img {
+			flex: 0 0 auto;
+			// width: 75px;
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.partnerLogos  {
+		.img {
+			width: 130px;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	.partnerLogos  {
+		flex-direction: column;
+		.img {
+			flex: 0 0 75px;
+			// width: 75px;
+		}
+	}
+}

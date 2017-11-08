@@ -1,0 +1,29 @@
+label, input, textarea {
+	display: block;
+	width: 100%;
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	margin-bottom: 20px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.6);
+	border: 0;
+	border-radius: 0;
+}
+
+textarea {
+	max-height: 150px;
+}
+
+select {
+	border-radius: 0;
+}
+
+form button {
+	padding: 12px 40px;
+	color: $secondary;
+}

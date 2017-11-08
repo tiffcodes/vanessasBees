@@ -1,0 +1,99 @@
+section.story, 
+section.save-the-bees, 
+section.contact {
+	background-image: url(../assets/flowers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+	.container {
+		background: rgba(0,0,0,0.5);
+		max-width: 700px;
+		padding: 50px 75px;
+	}
+}
+
+section.save-the-bees {
+	background-image: url(../assets/bigbeeyellowflower.jpg);
+	.container {
+		max-width: 850px;
+		margin-left: auto;
+		background: rgba(255,255,255,0.5);
+		ol {
+			padding-left: 50px;
+		}
+	}
+}
+
+section.contact {
+	background-image: url(../assets/wildflowers-field.jpg);
+	background-position: 70% 50%;
+}
+
+@media (max-width: 900px) {
+	section.story .container,
+	section.save-the-bees .container, 
+	section.contact .container {
+		padding: 50px 25px;
+	}
+}
+
+@media (max-width: 400px) {
+	section.save-the-bees .container ol {
+		padding-left: 15px;
+	}
+	section.story .container, 
+	section.save-the-bees .container, 
+	section.contact .container {
+		padding: 50px 10px;
+	}
+	section.save-the-bees {
+		background-position: 28%;
+	}
+}
+
+
+// section.story,
+// section.save-the-bees {
+// 	color: black;
+// 	position: relative;
+// 	.container {
+// 		background: rgba(255,255,255,1);
+// 		width: 50%;
+// 		float: right;
+// 		border: 1px solid black;
+// 		padding: 25px 50px 50px;
+// 		position: relative;
+// 		z-index: 999;
+// 		margin-right: 100px;
+// 	}
+// 	.img {
+// 		background: url(../assets/flowers.jpg) no-repeat;
+// 		background-size: cover;
+// 		background-position: right center;
+// 		width: 50%;
+// 		position: absolute;
+// 		top: 0;
+// 		bottom: 200px;
+// 		left: 100px;
+// 		right: 50%;
+// 	}
+// }
+
+// section.save-the-bees {
+// 	.container {
+// 		width: 50%;
+// 		ol, ul {
+// 			padding: 0 50px;
+// 		}
+// 	}
+// 	.img {
+// 		background: url(../assets/bigbeeyellowflower.jpg) no-repeat;
+// 		background-position: 27% 35%;
+// 		background-size: cover;
+// 	}
+// }
+
+// .locations, .contact {
+// 	clear: both;
+// }

@@ -1,0 +1,31 @@
+section.locations {
+	a {
+		color: $primary;
+		border-bottom: 1px solid;
+		&:hover {
+			border-bottom: 1px transparent;
+		}
+	}
+}
+
+.locationList {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.address {
+	margin-left: 50px;
+	p {
+		margin: 5px 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.address {
+		margin: 0;
+	}
+	.locationList {
+		flex-direction: column;
+		padding: 0 10px;
+	}
+}
